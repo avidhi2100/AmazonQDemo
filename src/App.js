@@ -12,6 +12,7 @@ const App = () => {
         document.querySelector('.app').classList.add('app-loaded');
     }, []);
 
+
     return (
         <Router>
             <div className="app">
