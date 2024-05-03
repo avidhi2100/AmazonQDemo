@@ -1,0 +1,35 @@
+.flappybird-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #87CEEB;
+    color: #fff;
+}
+
+.scoreboard {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.game-board {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #fff;
+}
+
+.bird {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #FF6B6B;
+    border-radius: 50%;
+}
+
+.pipe {
+    position: absolute;
+    width: 100px;
+    background-color: #8FBC8F;
+}
